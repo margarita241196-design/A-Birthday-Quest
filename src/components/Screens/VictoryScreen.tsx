@@ -57,7 +57,7 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({ onOpenLetter }) =>
         className="w-full bg-[#fdfbf7] border-2 border-[#231f20] px-4 py-2 rounded-xl shadow-[2px_2px_0px_#231f20] mb-4 flex items-center justify-between"
       >
         <span className="text-xs font-serif font-bold text-[#231f20] uppercase tracking-wider">
-          ЭКРАН 5: ФИНАЛ УРОВНЕЙ
+          ФИНАЛ УРОВНЕЙ
         </span>
         <span className="text-xs font-serif text-emerald-700 font-bold flex items-center gap-1">
           <PartyPopper className="w-4 h-4" /> 100% Завершено!
