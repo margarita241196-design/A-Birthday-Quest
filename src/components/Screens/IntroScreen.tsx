@@ -44,14 +44,14 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStartMaze }) => {
         <div className="w-full flex justify-center py-2 max-h-[300px]">
           {!imgFailed ? (
             <img
-              src="/8.png"
+              src="./8.png"
               alt="Крыска"
               onError={() => setImgFailed(true)}
               className="w-full max-w-[260px] max-h-[260px] object-contain drop-shadow-sm"
             />
           ) : (
             <img
-              src="/1.png"
+              src="./1.png"
               alt="Крыска"
               className="w-full max-w-[260px] max-h-[260px] object-contain drop-shadow-sm"
             />
