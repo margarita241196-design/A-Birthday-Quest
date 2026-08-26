@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Lora', Georgia, serif;
+    background-color: #fbf9f4;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'Cormorant Garamond', Garamond, 'Times New Roman', serif;
+  }
+}
+
+/* Authentic hand-drawn comic paper background */
+.paper-bg {
+  background-color: #faf7ee;
+  background-image: radial-gradient(#d3c9b7 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+/* Hand-drawn organic border boxes with offset solid drop shadows */
+.sketch-card {
+  border: 2px solid #231f20;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 0px #231f20;
+}
+
+.sketch-card-dark {
+  border: 2px solid #231f20;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px #231f20;
+}
+
+.sketch-bubble {
+  border: 2.5px solid #231f20;
+  border-radius: 8px 12px 14px 6px;
+  background-color: #ffffff;
+  box-shadow: 3.5px 3.5px 0px #231f20;
+  position: relative;
+}
+
+.sketch-btn-terracotta {
+  background-color: #934c4c;
+  color: #ffffff;
+  border: 2.5px solid #231f20;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px #231f20;
+  transition: all 0.15s ease;
+}
+
+.sketch-btn-terracotta:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #231f20;
+}
+
+.sketch-btn-pink {
+  background-color: #fca5a5;
+  color: #1f1f1f;
+  border: 2px solid #231f20;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0px #231f20;
+  transition: all 0.15s ease;
+}
+
+.sketch-btn-pink:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #231f20;
+}
+
+.sketch-btn-white {
+  background-color: #ffffff;
+  color: #1f1f1f;
+  border: 2px solid #231f20;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px #231f20;
+  transition: all 0.15s ease;
+}
+
+.sketch-btn-white:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #231f20;
+}
+
+/* Wavy line */
+.wavy-separator {
+  background: radial-gradient(circle at 10px -5px, transparent 12px, #231f20 13px, #231f20 15px, transparent 16px) repeat-x;
+  background-size: 20px 20px;
+  height: 12px;
+}
+
+/* Custom scrollbar for letter */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #faf7ee;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #d4cbb8;
+  border-radius: 3px;
+}
+
