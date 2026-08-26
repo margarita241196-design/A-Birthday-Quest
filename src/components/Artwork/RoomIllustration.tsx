@@ -111,7 +111,7 @@ export const RoomIllustration: React.FC<RoomIllustrationProps> = ({
         <div className="relative w-full aspect-[4/4.5] sm:aspect-[4/4.2] bg-[#fdfbf7] flex items-center justify-center">
           {!imgFailed ? (
             <img
-              src="/2.png"
+              src="./2.png"
               alt="Комната"
               onError={() => setImgFailed(true)}
               className="w-full h-full object-contain pointer-events-none select-none"
