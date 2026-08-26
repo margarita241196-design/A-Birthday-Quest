@@ -8,7 +8,7 @@ export const CupcakeRatIllustration: React.FC<{ className?: string }> = ({ class
       {/* Custom user image (6.png) */}
       {!imgFailed ? (
         <img
-          src="/6.png"
+          src="./6.png"
           alt="Крыска с капкейком"
           onError={() => setImgFailed(true)}
           className="w-full max-h-[300px] h-auto object-contain drop-shadow-sm"
