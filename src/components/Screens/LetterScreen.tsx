@@ -29,7 +29,7 @@ export const LetterScreen: React.FC<LetterScreenProps> = ({ onRestartQuest }) =>
         className="w-full bg-[#fdfbf7] border-2 border-[#231f20] px-4 py-2 rounded-xl shadow-[2px_2px_0px_#231f20] mb-4 flex items-center justify-between"
       >
         <span className="text-xs font-serif font-bold text-[#231f20] uppercase tracking-wider">
-          ЭКРАН 6: ПИСЬМО ДЛЯ ТАНЮШИ
+          ПИСЬМО
         </span>
         <span className="text-xs font-serif text-[#934c4c] font-bold flex items-center gap-1">
           <Heart className="w-4 h-4 fill-[#934c4c]" /> От всего сердца
