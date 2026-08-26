@@ -8,7 +8,7 @@ export const HeroRatIllustration: React.FC<{ className?: string }> = ({ classNam
       {/* Custom user image (1.png) */}
       {!imgFailed ? (
         <img
-          src="/1.png"
+          src="./1.png"
           alt="Крыска"
           onError={() => setImgFailed(true)}
           className="w-full max-h-[280px] h-auto object-contain drop-shadow-sm"
