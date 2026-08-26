@@ -136,7 +136,7 @@ export const MazeScreen: React.FC<MazeScreenProps> = ({ onComplete }) => {
         <div className="flex items-center justify-between mb-2">
           <div className="flex items-center gap-2">
             <span className="px-2.5 py-1 bg-[#934c4c] text-white text-xs font-serif font-bold rounded-lg border border-[#231f20]">
-              ЭКРАН 4
+              Задание 2
             </span>
             <h2 className="font-serif font-bold text-base sm:text-lg text-[#231f20]">
               Лабиринт воспоминаний
